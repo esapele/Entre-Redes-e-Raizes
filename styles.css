@@ -11,7 +11,7 @@
   --azul-escuro: #002c6eab;
 }
 
-/* configurações gerais*/
+/*======================== configurações gerais=====================*/
 
 * {
   margin: 0;
@@ -44,7 +44,6 @@ section {
 }
 
 h2 {
-  text-decoration: underline;
   text-transform: uppercase;
   text-align: center;
   width: 100%;
@@ -67,7 +66,7 @@ a {
   text-decoration: none;
 }
 
-/* listas/header */
+/* ========================listas/header=========================== */
 
 html {
   height: 500vh;
@@ -128,7 +127,7 @@ header ul li a {
   cursor: pointer;
 }
 
-/*listas/header no celular*/
+/* ====================listas/header no celular=================*/
 
 .menu-mobile {
   background-color: transparent;
@@ -145,7 +144,7 @@ header ul li a {
   cursor: pointer;
 }
 
-/* apresentação do site */
+/* =======================apresentação do site================== */
 
 .apresentacao {
   background-image: url(img/folhas.png);
@@ -178,7 +177,13 @@ header ul li a {
   font-weight: 400;
 }
 
-/* aba sobre o projeto*/
+/*===================== aba sobre o projeto=====================*/
+
+#objetivo p::before {
+  text-align: center;
+  content: "🌐";
+  display: block;
+}
 
 .conteudo-objetivo {
   display: flex;
@@ -202,7 +207,12 @@ header ul li a {
   padding-inline-start: 40px;
 }
 
-/* timeline */
+/*================== timeline ===================*/
+
+.titulo-timeline::before {
+  content: "⏳";
+  display: block;
+}
 
 .timeline {
   position: relative;
@@ -271,7 +281,7 @@ header ul li a {
   font-size: 1rem;
 }
 
-/* linha da timeline*/
+/* ====linha da timeline====*/
 
 .timeline::after {
   content: "";
@@ -326,7 +336,12 @@ header ul li a {
   left: -15px;
 }
 
-/* entrevista com o professor*/
+/* ================== entrevista com o professor ===================*/
+
+#entrevista h2::before {
+  content: "✉️";
+  display: block;
+}
 
 .texto-entrevista {
   background-color: var(--verde);
@@ -350,12 +365,17 @@ header ul li a {
 
 /*mapa */
 
+#mapa h2::before {
+  content: "🗺️";
+  display: block;
+}
+
 .mapa {
   width: 70vw;
   border-radius: 20px;
 }
 
-/* contato */
+/*======================== contato ============================ */
 #contato {
   background: var(--fundo-secao);
   min-height: 100vh;
@@ -377,7 +397,7 @@ h2 {
 }
 
 #contato h1::before {
-  content: "📧";
+  content: "📬";
   display: block;
 }
 
@@ -443,16 +463,13 @@ h2 {
   background: #118e9e;
 }
 
-
 /*footer*/
-
 
 footer {
   align-items: center;
 }
 
-
-.links { 
+.links {
   text-align: center;
   font-weight: 400;
   font-size: clamp(1rem, 2vw, 2rem);
@@ -465,17 +482,17 @@ footer {
 }
 
 .instagram,
- .icons8 {
+.icons8 {
   background-color: var(--verde-escuro);
   text-decoration: none;
   color: var(--preto);
   text-align: center;
 }
 
-/* altera partes do codigo dependendo do tamanho da tela */
+/* ============= altera partes do codigo dependendo do tamanho da tela ====================*/
 
 @media screen and (max-width: 600px) {
-  /* timeline mobile*/
+  /*========= timeline mobile===========*/
   .timeline {
     margin: 60px auto;
   }
@@ -521,8 +538,10 @@ footer {
     left: -15px;
   }
 }
+
 @media (max-width: 700px) {
-  /* header mobile */
+  /* ==========header mobile ===========*/
+
   .menu-mobile:focus ~ ul {
     height: 150px;
   }
