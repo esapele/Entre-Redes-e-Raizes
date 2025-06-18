@@ -311,8 +311,23 @@
       <!------------mapa interativo--------------->
       <section id="mapa">
         <h2>Mapa</h2>
-        <!--imagem temporaria-->
-        <img class="mapa" src="img/paraná.png" alt="mapa do parana" />
+         <figure>
+          <img
+            src="img/paraná.png"
+            alt="mapa do paraná"
+            usemap="#mapadoparana"
+            width="640"
+          />
+        </figure>
+        <map name="mapadoparana">
+          <area
+            shape="circle"
+            coords="260, 500, 250"
+            alt="região 1"
+            href="https:google.com"
+            title="sudoeste"
+          />
+        </map>
       </section>
     </main>
     <!-------------formulario de contato-------------->
