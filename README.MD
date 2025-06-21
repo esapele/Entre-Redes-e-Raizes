@@ -1,6 +1,6 @@
 # _Entre redes e raízes_
 
-Este projeto é uma página web informativa sobre a historia da relação entre campo e cidade. Através de uma abordagem visual e clara, o conteúdo é dividido em seções que contem diversos elementos que ajudam a contar essa historia, e como esta relaão se mostra até hoje.
+Este projeto é uma página web informativa sobre a história da relação entre campo e cidade. Através de uma abordagem visual e clara, o conteúdo é dividido em seções que contêm diversos elementos que ajudam a contar essa historia, e como esta relação se manifesta até hoje.
 
 ### Estrutura do Projeto
 
@@ -22,23 +22,23 @@ Cabeçalho (Header):
 
 #### sobre:
 
-Seção introdutoria explicando o que o site planeja abordar
+Seção introdutória explicando o que o site planeja abordar
 
 #### timeline:
 
-Linha do tempo contando como foi a relação do campo e da cidade até os dias de hoje.
+Linha do tempo contando sobre relação entre campo e cidade ao decorrer do tempo.
 
 #### Entrevista:
 
-Depoimento real um professor de geografia da rede de ensino publica.
+Depoimento real de um professor de geografia da rede de ensino publica.
 
 #### Mapa:
 
-Um mapa interativo que mostra projetos comunitarios e outras ações que interliguem o campo e a cidade.
+Um mapa interativo que mostra projetos comunitarios e outras ações que interligam o campo e a cidade.
 
 #### Contato:
 
-Seção para o envio de sugestões atravéz do email.
+Seção para o envio de sugestões através do email.
 
 ### Rodapé (Footer):
 
@@ -49,10 +49,10 @@ Nome e instagram da autora.
 - Clone ou faça o download do repositório.
 - Abra o arquivo index.html em um navegador de sua escolha.
 
-### Creditos das imagens:
+### Créditos das imagens:
 
 - background de folhas por de Nahil Naseer na <a href="https://unsplash.com/pt-br/fotografias/plantas-de-folha-verde-xljtGZ2-P3Y?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 
-- icones da timeline por <a target="_blank" href="https://icons8.com">Icons8</a>
+- ícones da timeline por <a target="_blank" href="https://icons8.com">Icons8</a>
 
-- imagens da timeine por <a target="_blank" href="https://pixels.market/"> pixels market </a>
+- imagens da timeline por <a target="_blank" href="https://pixels.market/"> pixels market </a>

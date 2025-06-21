@@ -1,9 +1,13 @@
+//carrosel de informações
+
+// Seleciona os elementos do carrossel
 const slider = document.querySelectorAll(".slider");
 const btnPrev = document.getElementById("prev-button");
 const btnNext = document.getElementById("next-button");
 
 let currentSlide = 0;
 
+// Funções para controlar o carrossel
 function hideSlider() {
   slider.forEach((item) => item.classList.remove("on"));
 }
