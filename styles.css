@@ -640,7 +640,7 @@ footer {
     display: flex;
     position: relative;
     width: 100%;
-    min-height: 80vh;
+    min-height: 20vh;
     align-items: center;
     justify-content: center;
     margin: 0;
@@ -696,6 +696,6 @@ footer {
   }
 
   .cursos-online {
-    padding-top: 25rem;
+    padding-top: 35rem;
   }
 }
