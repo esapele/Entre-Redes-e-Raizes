@@ -44,7 +44,15 @@ Seção para o envio de sugestões atravéz do email.
 
 Nome e instagram da autora.
 
-Como Rodar o Projeto:
+### Como Rodar o Projeto:
 
 - Clone ou faça o download do repositório.
 - Abra o arquivo index.html em um navegador de sua escolha.
+
+### Creditos das imagens:
+
+- background de folhas por de Nahil Naseer na <a href="https://unsplash.com/pt-br/fotografias/plantas-de-folha-verde-xljtGZ2-P3Y?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+
+- icones da timeline por <a target="_blank" href="https://icons8.com">Icons8</a>
+
+- imagens da timeine por <a target="_blank" href="https://pixels.market/"> pixels market </a>
