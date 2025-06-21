@@ -1,0 +1,60 @@
+# _Entre redes e raízes_
+
+Este projeto é uma página web informativa sobre a história da relação entre campo e cidade. Através de uma abordagem visual e clara, o conteúdo é dividido em seções que contêm diversos elementos que ajudam a contar essa historia, e como esta relação se manifesta até hoje.
+
+### Estrutura do Projeto
+
+Tecnologias Utilizadas:
+
+- **HTML**: Estrutura principal da página.
+- **CSS**: Estilização visual da página.
+- **JavaScript(JS)**: Funcionalidades adicionais
+- **Fontes**: Fontes personalizadas para melhorar a legibilidade e o design.
+
+### Arquivos
+
+- `index.html`: Arquivo principal com a estrutura da página  
+- `style.css`: Arquivo de estilos para a formatação visual  
+
+## Descrição das Seções:
+
+Cabeçalho (Header):
+
+- Navegação com links internos para as seções "sobre", "timeline", "entrevista", "mapa" e "Contato".
+
+#### sobre:
+
+Seção introdutória explicando o que o site planeja abordar
+
+#### timeline:
+
+Linha do tempo contando sobre relação entre campo e cidade ao decorrer do tempo.
+
+#### Entrevista:
+
+Depoimento real de um professor de geografia da rede de ensino publica.
+
+#### Mapa:
+
+Um mapa interativo que mostra projetos comunitarios e outras ações que interligam o campo e a cidade.
+
+#### Contato:
+
+Seção para o envio de sugestões através do email.
+
+### Rodapé (Footer):
+
+Nome e instagram da autora.
+
+### Como Rodar o Projeto:
+
+- Clone ou faça o download do repositório.
+- Abra o arquivo index.html em um navegador de sua escolha.
+
+### Créditos das imagens:
+
+- background de folhas por de Nahil Naseer na <a href="https://unsplash.com/pt-br/fotografias/plantas-de-folha-verde-xljtGZ2-P3Y?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+
+- ícones da timeline por <a target="_blank" href="https://icons8.com">Icons8</a>
+
+- imagens da timeline por <a target="_blank" href="https://pixels.market/"> pixels market </a>
